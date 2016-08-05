@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="micon" format="reference"/>
+    <attr name="mcolor" format="color"/>
+    <attr name="mtext" format="string"/>
+    <attr name="text_size" format="dimension"/>
+    <declare-styleable name="ColorGradient">
+        <attr name="micon"/>
+        <attr name="mcolor"/>
+        <attr name="mtext"/>
+        <attr name="text_size"/>
+    </declare-styleable>
+</resources>

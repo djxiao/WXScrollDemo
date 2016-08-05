@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:djx="http://schemas.android.com/apk/res/com.djxiao.wxscrolldemo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.djxiao.wxscrolldemo.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tag_bg"
+        android:orientation="horizontal">
+        <com.djxiao.wxscrolldemo.views.ColorGradient
+            android:id="@+id/layout_wx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            djx:micon = "@drawable/ic_menu_start_conversation"
+            android:padding="5dp"
+            djx:mtext = "微信"
+            djx:text_size = "12sp"
+            android:text="hehe"/>
+        <com.djxiao.wxscrolldemo.views.ColorGradient
+            android:id="@+id/layout_txl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            djx:micon = "@drawable/ic_menu_friendslist"
+            android:padding="5dp"
+            djx:mtext = "通讯录"
+            djx:text_size = "12sp"
+            android:text="hehe"/>
+        <com.djxiao.wxscrolldemo.views.ColorGradient
+            android:id="@+id/layout_fx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            djx:micon = "@drawable/ic_menu_emoticons"
+            android:padding="5dp"
+            djx:mtext = "发现"
+            djx:text_size = "12sp"
+            android:text="hehe"/>
+        <com.djxiao.wxscrolldemo.views.ColorGradient
+            android:id="@+id/layout_w"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            djx:micon = "@drawable/ic_menu_allfriends"
+            android:padding="5dp"
+            djx:mtext = "我"
+            djx:text_size = "12sp"
+            android:text="hehe"/>
+    </LinearLayout>
+</LinearLayout>
